@@ -37,6 +37,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="120dp"
         android:background="#792D84E3"
+        android:onClick="goalEventRunner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_goal_launcher_foreground"
