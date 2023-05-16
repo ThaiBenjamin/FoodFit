@@ -18,4 +18,25 @@ public class HomeActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+
+    public void benefitsEventRunner(View view){
+        Intent i = new Intent(this, BenefitsActivity.class);
+        startActivity(i);
+    }
+
+    public void recipesEventRunner(View view){
+        Intent i = new Intent(this, RecipesActivity.class);
+        startActivity(i);
+    }
+
+    public void creditsEventRunner(View view){
+        Intent i = new Intent(this, CreditsActivity.class);
+        startActivity(i);
+    }
+
+    public void additionalResourcesEventRunner(View view){
+        Intent i = new Intent(this, AdditionalResourcesActivity.class);
+        startActivity(i);
+    }
+
 }
