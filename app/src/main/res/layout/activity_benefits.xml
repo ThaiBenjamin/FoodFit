@@ -6,14 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".BenefitsActivity">
 
-    <EditText
+    <TextView
         android:id="@+id/benefitsInfoText"
         android:layout_width="375dp"
         android:layout_height="334dp"
         android:ems="10"
         android:fontFamily="serif"
         android:gravity="start|top"
-        android:inputType="textMultiLine"
         android:text="•May help you live longer\n•Keeps skin, teeth, and eyes healthy \n•Supports muscles\n•Boosts\n•immunityStrengthens bones\n•Lowers risk of heart disease, type 2 diabetes, and some cancers\n•Supports healthy pregnancies and breastfeeding\n•Helps the digestive system function\n•Helps achieve and maintain a healthy weight"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +26,7 @@
         android:id="@+id/benefitAdultImage"
         android:layout_width="166dp"
         android:layout_height="437dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="388dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,22 +38,10 @@
         android:layout_height="440dp"
         android:layout_marginTop="388dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.241"
         app:layout_constraintStart_toEndOf="@+id/benefitAdultImage"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/children" />
-
-    <TextView
-        android:id="@+id/sourceText"
-        android:layout_width="379dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="32dp"
-        android:text="Source: “Benefits of Healthy Eating.” Centers for Disease Control and Prevention, 16 May 2021, www.cdc.gov/nutrition/resources-publications/benefits-of-healthy-eating.html. "
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/benefitTitle"

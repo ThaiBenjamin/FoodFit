@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">FoodFit</string>
+    <string name="link">
+         <a href = "https://www.allrecipes.com/recipes/"> Click here to find additional recipes.</a>
+    </string>
+
+    <string name="link2">
+         <a href = "https://www.eatright.org/"> Eatright.org</a> provides evidence-based information on nutrition, healthy eating, and resources for dietitians.
+    </string>
+
+    <string name="link3">
+         <a href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/basics/nutrition-basics/hlv-20049477"> Mayoclinic.org</a> Offers reliable nutrition information, healthy recipes, and practical tips for maintaining a balanced diet.
+    </string>
+
+    <string name="link4">
+         <a href = "https://www.nutrition.gov/"> Nutrition.gov</a> A comprehensive resource for nutrition education and guidance, providing access to credible information from various government agencies.
+    </string>
+
+    <string name="link5">
+         <a href = "https://www.who.int/health-topics/nutrition"> World Health Organization (WHO)</a> provides global guidelines, reports, and resources on nutrition and healthy eating habits.
+    </string>
+
+    <string name="link6">
+         <a href = "https://www.heart.org/en/healthy-living/healthy-eating"> Heart.org</a> Offers resources and tips for heart-healthy eating, including recipes and guidance on reducing sodium and saturated fats.
+    </string>
+
+    <string name="link7">
+         <a href = "https://www.nia.nih.gov/health/healthy-eating"> NIH.gov</a> Provides information on nutrition for older adults, including tips on maintaining a healthy diet as we age.
+    </string>
 </resources>
