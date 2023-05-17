@@ -54,12 +54,12 @@
         android:layout_height="119dp"
         android:layout_marginTop="252dp"
         android:layout_marginEnd="56dp"
-        android:background="#792D84E3"
+        android:background="#7966C13F"
         android:onClick="recipesEventRunner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_goal_launcher_foreground"
-        tools:srcCompat="@drawable/ic_goal_launcher_foreground" />
+        app:srcCompat="@mipmap/recipes_icon"
+        tools:srcCompat="@mipmap/recipes_icon" />
 
     <ImageButton
         android:id="@+id/resourceButton"
@@ -67,12 +67,12 @@
         android:layout_height="119dp"
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="140dp"
-        android:background="#792D84E3"
+        android:background="#79E3822D"
         android:onClick="additionalResourcesEventRunner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_goal_launcher_foreground"
-        tools:srcCompat="@drawable/ic_goal_launcher_foreground" />
+        app:srcCompat="@mipmap/resource_icon"
+        tools:srcCompat="@mipmap/resource_icon" />
 
     <TextView
         android:id="@+id/additionalResourcesText"
@@ -122,7 +122,7 @@
         android:layout_height="119dp"
         android:layout_marginTop="252dp"
         android:layout_marginEnd="92dp"
-        android:background="#45BAEF"
+        android:background="#792D84E3"
         android:onClick="benefitsEventRunner"
         app:layout_constraintBottom_toTopOf="@+id/goalButton"
         app:layout_constraintEnd_toStartOf="@+id/recipesButton"
