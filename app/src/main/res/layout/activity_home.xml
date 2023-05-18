@@ -109,10 +109,12 @@
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-medium"
         android:text="Recipes"
+        app:layout_constraintBottom_toTopOf="@+id/resourceButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/benefitsText"
-        app:layout_constraintTop_toBottomOf="@+id/recipesButton" />
+        app:layout_constraintTop_toBottomOf="@+id/recipesButton"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/goalButton"
@@ -148,12 +150,14 @@
         android:id="@+id/benefitsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-medium"
         android:text="Benefits "
+        app:layout_constraintBottom_toTopOf="@+id/goalButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/benfitInfoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/benfitInfoButton"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/goalsText2"
