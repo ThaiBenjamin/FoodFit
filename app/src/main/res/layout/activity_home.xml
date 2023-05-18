@@ -59,7 +59,7 @@
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteY="10dp" />
 
     <ImageButton
         android:id="@+id/recipesButton"

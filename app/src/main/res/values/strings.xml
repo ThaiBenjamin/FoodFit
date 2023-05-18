@@ -34,4 +34,5 @@
     <string name="login_now" />
     <string name="click_here_to_register" />
     <string name="register_here">Register Here!</string>
+    <string name="FoodFit">Food Fit</string>
 </resources>
