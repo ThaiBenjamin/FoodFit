@@ -23,6 +23,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:padding="15dp"
+        android:text="@string/Creators"
+        android:textSize="48sp"
+        android:fontFamily="casual"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="15dp"
         android:text="@string/login"

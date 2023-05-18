@@ -35,4 +35,5 @@
     <string name="click_here_to_register" />
     <string name="register_here">Register Here!</string>
     <string name="FoodFit">Food Fit</string>
+    <string name="Creators">Created by Benjamin Thai and Shawn Gazin</string>
 </resources>
