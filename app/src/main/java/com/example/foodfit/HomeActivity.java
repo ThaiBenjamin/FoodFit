@@ -17,6 +17,8 @@ public class HomeActivity extends AppCompatActivity {
     Button button;
     TextView textView;
     FirebaseUser user;
+Button apiButton;  // Declare the apiButton here
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +26,10 @@ public class HomeActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         button = findViewById(R.id.logoutButton);
+        apiButton = findViewById(R.id.apiButton);  // Initialize the apiButton here
         textView = findViewById(R.id.welcomeText);
         user = mAuth.getCurrentUser();
+
         if(user == null){
             Intent intent = new Intent(getApplicationContext(), SignInPage.class);
             startActivity(intent);
@@ -44,6 +48,16 @@ public class HomeActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        // The code to transition to the API screen
+        apiButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent apiIntent = new Intent(HomeActivity.this, APIActivity.class);
+                startActivity(apiIntent);
+            }
+        });
+
     }
 
     public void goalEventRunner(View view){

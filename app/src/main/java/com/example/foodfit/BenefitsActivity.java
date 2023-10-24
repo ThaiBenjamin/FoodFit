@@ -12,3 +12,4 @@ public class BenefitsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_benefits);
     }
 }
+
