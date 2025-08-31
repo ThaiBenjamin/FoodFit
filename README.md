@@ -2,7 +2,11 @@
 
 FoodFit is a Java-based fitness and health application. It helps users gain information, find meal plans, and go to resources. Built with Android Studio.
 ---
+## Demo
 
+https://youtu.be/g4tDquv13TQ?si=G4sGuxvuXbFavCMp
+
+---
 ## Features
 
 -  **Goal Tracking** – Log goals and mark them as complete when finished. 
